@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/mitaps/static/css/main.407e1061.css",
+    "main.js": "/mitaps/static/js/main.c50a790c.js",
+    "static/media/ndtk.png": "/mitaps/static/media/ndtk.b9f17af3772833b1df89.png",
+    "static/media/bootstrap-icons.woff?": "/mitaps/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/mitaps/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/info.png": "/mitaps/static/media/info.cf2ff641bbd14cad5b9d.png",
+    "static/media/Logo.png": "/mitaps/static/media/Logo.b37835cae30d1d62acd0.png",
+    "index.html": "/mitaps/index.html",
+    "main.407e1061.css.map": "/mitaps/static/css/main.407e1061.css.map",
+    "main.c50a790c.js.map": "/mitaps/static/js/main.c50a790c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.407e1061.css",
+    "static/js/main.c50a790c.js"
+  ]
+}
