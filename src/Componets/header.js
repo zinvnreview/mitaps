@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import logo from '../Assets/Logo.png';
 import "../Assets/css/loading.css";
 import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
-import ApiGate from '../Utils/api';
 
 export default function Head() {
   const [isActive, setIsActive] = useState(true);
@@ -53,7 +52,7 @@ export default function Head() {
                   <li className="nav-item"><NavLink to="/game" className="nav-link">Trò chơi</NavLink></li>
                   <li className="nav-item"><NavLink to="/about-us" className="nav-link">Về chúng tôi</NavLink></li>
                   <li className="nav-item"><NavLink to="/news" className="nav-link">Tin tức</NavLink></li>
-                  <li className="nav-item"><NavLink to="/gamevh" className="nav-link">Game việt hóa</NavLink></li>
+                  <li className="nav-item"><NavLink to="https://playerduo.net/zinvnreview" className="nav-link">Donate</NavLink></li>
                   <li className="nav-item"><a href="https://www.facebook.com/mitapsstudio" target="_blank" rel="noopener noreferrer" className="nav-link">Nạp thẻ</a></li>
                 </ul>
               </div>
