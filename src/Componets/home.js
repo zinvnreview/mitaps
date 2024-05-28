@@ -16,18 +16,8 @@ const Info = [
   ". Hơn nữa, chúng tôi không ngừng nỗ lực phát triển bản thân để có thể mang đến thị trường nhiều sản phẩm mới, thú vị hơn."
 ];
 const hr = "hr@mitapsstudio.vn";
-const Logo = require("../Assets/Logo.png");
 const GameLogo = require("../Assets/game/ndtk.png");
 const fullDescription = Info.join("");
-const testimonials = [
-  {
-    id: 1,
-    text: "Game rất hay gắn liền với tuổi thơ nhiều người",
-    author: "Test",
-    game: "Nam Đế Truyền Kỳ",
-    imageUrl: "http://localhost:3000/static/media/ndtk.b9f17af3772833b1df89.png"
-  }
-];
 const GameTitles = "Nam Đế Truyền Kỳ";
   return (
     <>
@@ -117,10 +107,10 @@ const GameTitles = "Nam Đế Truyền Kỳ";
       </section>
       <section className="container py-5 mt-n2">
         <div className="card border-0 bg-gradient-success card border-0 bg-gradient-primary">
-          <div className="card-body p-md-5 p-4 bg-size-cover" style={{ backgroundImage: 'url(http://teamobi.com/home/images/contact-bg.png)'}}>
+          <div className="card-body p-md-5 p-4 bg-size-cover">
             <div className="py-md-5 py-4 text-center">
               <h3 className="h4 fw-normal text-light opacity-75">Muốn làm việc với chúng tôi không? Hãy nói chuyện nhé</h3>
-              <a href="mailto:hr@mitapsstudio.vn" className="display-6 text-light">{hr}</a>
+              <a href="https://fb.com/MitapsStudio" className="display-6 text-light">{hr}</a>
             </div>
           </div>
         </div>
